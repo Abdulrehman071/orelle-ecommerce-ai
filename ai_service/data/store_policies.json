@@ -1,0 +1,20 @@
+{
+  "_note": "Copied verbatim from frontend/src/pages/InfoPage.jsx and backend/orders/views.py. The shop keeps policies as static page text (not in the database), so if you change a policy on the website, change it here too.",
+  "store": {"name": "ORELLE", "currency": "PKR"},
+  "shipping_rules": {
+    "standard_fee": 250,
+    "express_fee": 600,
+    "free_shipping_threshold": 5000,
+    "standard_days": "5-7",
+    "express_days": "2-4"
+  },
+  "topics": {
+    "shipping": "Standard delivery takes 5–7 working days across Pakistan. Express delivery (2–4 working days) is available at checkout. Orders above PKR 5,000 ship free.",
+    "returns": "Items can be returned within 14 days of delivery if unworn, unwashed, and with original tags attached. Start a return from My Account > Orders, selecting the item and a reason. Refunds are processed within 5–7 working days of approval.",
+    "exchanges": "Need a different size or color? Request an exchange from My Account > Orders within 14 days of delivery. Exchanges are subject to stock availability.",
+    "payment": "Payment methods: Cash on Delivery, Bank Transfer, and Card. Checkout as a guest is possible; no account is required.",
+    "contact": "Reach our customer care team at support@orelle.pk or call 0800-ORELLE, Monday to Saturday, 10am–7pm. We usually respond within one business day.",
+    "size_guide": "Refer to the Size Guide on each product page for garment-specific measurements. As a general rule: S fits 36\" chest, M fits 38\", L fits 40\", XL fits 42\".",
+    "order_tracking": "Track an order from the Track Order page using the order number and the email used at checkout, or from My Account > Orders when logged in."
+  }
+}
